@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+/* Apply the animation to an element */
+.animate {
+  border:3px solid #3498db;
+  background-color: #3498db; /* Replace with your desired background color */
+  animation: morph 8s linear infinite; /* Adjust the duration and timing function as needed */
+}
