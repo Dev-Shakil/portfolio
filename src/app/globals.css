@@ -21,3 +21,7 @@
   background-color: #3498db; /* Replace with your desired background color */
   animation: morph 8s linear infinite; /* Adjust the duration and timing function as needed */
 }
+.projectContainer {
+  overflow: hidden;
+}
+

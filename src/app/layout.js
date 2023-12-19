@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar'
 import Topbar from '../components/Topbar'
 import './globals.css'
 import { Inter, Poppins } from 'next/font/google'
@@ -14,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <Topbar/>
+        <Navbar/>
         {children}</body>
     </html>
   )

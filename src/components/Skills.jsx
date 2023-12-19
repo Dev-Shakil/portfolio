@@ -49,32 +49,41 @@ const Skills = () => {
         },
         {
             name:"Javascript",
-            url:"/qatar.png"
+            url:"/javascript.png"
         },
         {
-            name:"Tailwind Css",
-            url:"/oman1.jpg"
+            name:"Tailwind CSS",
+            url:"/tailwind.png"
+        },
+        {
+            name:"Bootstrap",
+            url:"/bootstrap.svg"
+        },
+        {
+          name:"Ant Design",
+          url:"/antd.png"
         },
         {
             name:"Redux Tool Kit",
-            url:"/kuwait.jpg"
+            url:"/redux.webp"
         },
         {
             name:"HTML 5",
             url:"/html.png"
         },
         {
-            name:"CSS3",
+            name:"CSS 3",
             url:"/css.png"
         },
         {
             name:"React Router",
             url:"/react-router.png"
         },
+       
       ]
-  return (<>
+  return (<div className="py-8" id='skills'>
     <h2 className="text-center my-4 text-3xl font-bold tracking-widest text-gray-800">Skills</h2>
-    <div className="w-[90%] mx-auto justify-center flex flex-wrap gap-7 py-10">
+    <div className="md:w-[80%] w-[100%] mx-auto justify-center flex flex-wrap gap-7 py-10">
    
         {
             Skills.map((skill ,ind)=>{
@@ -84,7 +93,7 @@ const Skills = () => {
             })
         }
 
-    </div></>
+    </div></div>
   )
 }
 
