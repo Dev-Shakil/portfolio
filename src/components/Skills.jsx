@@ -41,43 +41,53 @@ const Skills = () => {
       const Skills=[
         {
             name:"Raact Js",
-            url:"/react.png"
+            url:"/react.png",
+            bg:"orange-500"
         },
         {
             name:"Next Js",
-            url:"/nextjs.png"
+            url:"/nextjs.png",
+            bg:"red-500"
         },
         {
             name:"Javascript",
-            url:"/javascript.png"
+            url:"/javascript.png",
+            bg:"blue-700"
         },
         {
             name:"Tailwind CSS",
-            url:"/tailwind.png"
+            url:"/tailwind.png",
+            bg:"cyan-500"
         },
         {
             name:"Bootstrap",
-            url:"/bootstrap.svg"
+            url:"/bootstrap.svg",
+            bg:"sky-700"
         },
         {
           name:"Ant Design",
-          url:"/antd.png"
+          url:"/antd.png",
+          bg:"orange-500"
         },
         {
             name:"Redux Tool Kit",
-            url:"/redux.webp"
+            url:"/redux.webp",
+            bg:"violet-500"
         },
         {
             name:"HTML 5",
-            url:"/html.png"
+            url:"/html.png",
+            bg:"fuchsia-500"
         },
         {
             name:"CSS 3",
-            url:"/css.png"
+            url:"/css.png",
+            bg:"pink-600"
         },
         {
             name:"React Router",
-            url:"/react-router.png"
+            url:"/react-router.png",
+            bg:"rose-600"
         },
        
       ]

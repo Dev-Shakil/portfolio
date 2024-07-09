@@ -12,10 +12,10 @@ const Hero = () => {
             <p className="md:w-[450px] w-[100%] md:text-start text-center mt-4 text-lg text-[#555] font-medium ">Hi, Im <span className="font-semibold">Mohammed Shakil.</span> A passionate <span className="font-semibold">Front-end React Developer</span> based in Dhaka, Bangladesh. 📍</p>
             {/* <button className="py-3 px-6 font-semibold border-black border-2">Resume</button> */}
             <div className="flex mt-4 gap-4 text-[#555] items-center">
-            <button className="py-3 px-6 font-semibold border-black border-2 hover:bg-black hover:text-white rounded-lg duration-500">Resume</button>
+            <Link href="/resume.pdf" target="_blank" className="py-3 px-6 font-semibold border-black border-2 hover:bg-black hover:text-white rounded-lg duration-500">Resume</Link>
                 <Link href="https://www.linkedin.com/in/mohammed-shakil1007" target="_blank"><FaLinkedin className="hover:text-blue-600 text-4xl" /></Link><Link href="https://github.com/Dev-Shakil" target="_blank"><BsGithub className="text-4xl hover:text-black" /></Link></div>
         </div>
-        <div className="hero_img md:w-[45%]  lg:w-[35%]  flex justify-center md:items-start  py-7 md:py-0"><Image src="/profile.jpg" alt='Profile Picter' className="animate" width={350} height={350} /></div>
+        <div className="hero_img md:w-[45%]  lg:w-[35%]  flex justify-center md:items-start  py-7 md:py-0"><Image src="/profile.png" alt='Profile Picter' className="animate" width={350} height={350} /></div>
     </div>
    
     </div>

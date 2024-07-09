@@ -26,9 +26,9 @@ const About = () => {
         <div className="text flex flex-col max-w-[500px] ">
           <h3 className="text-green-700 font-bold text-xl">ABOUT ME</h3>
           <h2 className="font-semibold text-2xl text-gray-700 py-3">A dedicated Front-end Developer
-            based in Belgrade, Serbia 📍
+            based in Dhaka, Bangladesh 📍
           </h2>
-    	    <p className="font-medium text-lg text-gray-500" >As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
+    	    <p className="font-medium text-lg text-gray-500" >As a Front-End Developer, I possess an impressive arsenal of skills in  Next.Js HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
         </div>
       </div>
     </div>
