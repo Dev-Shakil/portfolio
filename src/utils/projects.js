@@ -1,5 +1,13 @@
 const projects = [
     {
+        image:"/msk.jpg",
+        title:"Home Service Booking Application",
+        description:"Home Service App Done In Next JS and And Tailwind CSS. Hygraph CMS used for Backend. Next-Auth for Authentication Process.",
+        tech:["Next JS","React JS", "Tailwind CSS", "Next-Auth, Hygraph"],
+        github_link:"https://github.com/Dev-Shakil/msk-home-service",
+        demo_link:"https://msk-home-service.vercel.app/"
+    },
+    {
         image:"/agency.png",
         title:"Recruiting Agency Website",
         description:"A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars",

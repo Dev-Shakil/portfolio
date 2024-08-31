@@ -11,10 +11,10 @@ const Projects = () => {
       </div>
       <div className="flex flex-col">
         {
-          projects.map((project) => {
+          projects.map((project,ind) => {
             return (
               <>
-                 <SingleProject  project={project}/>
+                 <SingleProject key={ind}  project={project}/>
               </>
              
             )
