@@ -63,11 +63,11 @@ const Hero = () => {
         {/* Image Section */}
         <div className="hero_img md:w-[45%] lg:w-[35%] flex justify-center md:items-start py-7 md:py-0">
           <Image
-            src="/ss.jpeg"
+            src="/profile.png"
             alt="Profile Picture"
-            className="animate-fade-in-up rounded-full delay-600"
-            width={350}
-            height={350}
+            className="animate-fade-in-up w-fit rounded-full delay-600"
+            width={450}
+            height={450}
           />
         </div>
       </div>
