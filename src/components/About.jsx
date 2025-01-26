@@ -13,7 +13,7 @@ const About = () => {
   //     .join('');
   // }, []);
   return (
-    <div className="min-h-[90vh] bg-gray-200 flex justify-center items-center" id="about">
+    <div className="min-h-[80vh] bg-gray-200 flex justify-center items-center" id="about">
       <div className="flex gap-14  md:flex-nowrap flex-wrap justify-center py-10 px-9">
         <div className="">
         <Image src="/about.webp" alt="about" width={450} height={650} className="rounded-lg min-h-[400px]" />
@@ -24,7 +24,7 @@ const About = () => {
         </div>
         
         <div className="text flex flex-col max-w-[500px] ">
-          <h3 className="text-green-700 font-bold text-xl">ABOUT ME</h3>
+          <h3 className="text-primary font-bold text-xl">ABOUT ME</h3>
           <h2 className="font-semibold text-2xl text-gray-700 py-3">A dedicated Front-end Developer
             based in Dhaka, Bangladesh 📍
           </h2>

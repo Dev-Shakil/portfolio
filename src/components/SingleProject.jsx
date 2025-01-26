@@ -39,11 +39,11 @@ const SingleProject = ({ project }) => {
       />
     </div>
     <div className="py-3 flex  w-full md:w-2/4 md:m-3 justify-center rounded-lg flex-col px-5 gap-y-4 shadow-lg items-center">
-      <h2 className="font-semibold text-gray-600 text-xl">{project.title}</h2>
-      <p className="text-justify text-gray-400 font-semibold">{project.description}</p>
+      <h2 className="font-semibold text-primary text-2xl">{project.title}</h2>
+      <p className="text-justify text-gray-500 font-semibold">{project.description}</p>
       <div className="flex gap-4 mt-5">
-        <Link className="text-lg flex items-center gap-2 bg-black p-2 text-gray-400  rounded-md" target="_blank" href={project.github_link}>Code <FaGithub /></Link>
-        <Link className="text-lg flex items-center gap-2 bg-[#15858B] p-2 text-gray-100  rounded-md" target="_blank" href={project.demo_link}>Live Demo <CgWebsite /></Link>
+        <Link className="text-lg flex items-center gap-2 px-4 bg-black p-2 text-gray-400  rounded-md" target="_blank" href={project.github_link}>Code <FaGithub /></Link>
+        <Link className="text-lg flex items-center gap-2 px-4 bg-primary p-2 text-gray-100  rounded-md" target="_blank" href={project.demo_link}>Live Demo <CgWebsite /></Link>
       </div>
     </div>
     </div>

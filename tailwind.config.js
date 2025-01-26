@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary:'#055b8a',
+      },
       animation: {
         'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
         'hero-stagger': 'fadeInStagger 1.2s ease-out forwards',

@@ -26,10 +26,10 @@ const Navbar = () => {
   return (
    
         
-<nav className={`${navbar? " bg-white":"bg-white text-black"}` + "text-black border-gray-200  bg-white shadow-lg dark:border-gray-700 shadow-gray-800 sticky top-0 z-50"}>
+<nav className={`${navbar? " bg-white":"bg-white text-black"}` + "text-black border-gray-200  bg-white shadow-sm dark:border-gray-700 shadow-pink-200 sticky top-0 z-50"}>
   <div className="max-w-screen-xl flex flex-wrap items-center text-black justify-between mx-auto p-4">
   <div className="font-bold text-lg md:text-xl text-[#2d2e32] ">
-          <Link href="/" className="">shakil.dev</Link>
+          <Link href="/" className="text-primary">shakil.dev</Link>
         </div>
     <button data-collapse-toggle="navbar-multi-level" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm hover:text-white transition duration-500 rounded-lg md:hidden hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-200  " aria-controls="navbar-multi-level" aria-expanded="false">
         <span className="sr-only">Open main menu</span>
