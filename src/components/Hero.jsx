@@ -19,7 +19,7 @@ const Hero = () => {
 
   return (
     <div className="w-full h-fit md:h-[90vh] md:py-2 py-10 flex justify-center flex-col bg-[url('/banner-scaled.jpg')] bg-cover bg-center bg-no-repeat">
-      <div className="md:flex justify-around md:items-center md:h-[70vh] w-[90%] md:max-w-[900px] lg:max-w-[1100px] mx-auto items-end animate-hero-stagger">
+      <div className="md:flex justify-around md:items-center md:h-[70vh] w-[95%] md:max-w-[900px] lg:max-w-[1100px] mx-auto items-end animate-hero-stagger">
         {/* Text Section */}
         <div className="hero_text lg:w-[65%] md:w-[55%] w-full min-h-[30vh] md:h-fit flex md:block flex-col justify-center items-center px-8">
           <h2 className="text-3xl md:text-5xl lg:text-7xl font-semibold text-center md:text-start leading-normal text-[#eceffa] animate-fade-in-up">

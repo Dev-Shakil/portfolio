@@ -23,7 +23,7 @@ const Skills = () => {
       <h2 className="text-center my-4 text-4xl font-bold tracking-widest text-primary animate-fade-in-up">
         MY SKILLS
       </h2>
-      <div className="md:w-[70%] w-[100%] mx-auto justify-center flex flex-wrap md:gap-7 gap-3 py-10">
+      <div className="md:w-[70%] w-[100%] mx-auto justify-center flex flex-wrap md:gap-7 gap-2 py-10">
         {skills.map((skill, ind) => (
           <div
             key={ind}
