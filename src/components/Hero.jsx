@@ -40,7 +40,7 @@ const Hero = () => {
             <Link
               href="/resume.pdf"
               target="_blank"
-              className="py-4 flex gap-3 items-center justify-center px-4 sm:px-8 font-semibold hover:border-primary hover:border-2 hover:bg-black text-black hover:text-white rounded-sm text-xl duration-250 bg-primary"
+              className="py-4 flex gap-3 items-center justify-center px-2 xs:px-8 font-semibold hover:border-primary hover:border-2 hover:bg-black text-black hover:text-white rounded-sm text-sm sm:text-xl duration-250 bg-primary"
             >
               Download Resume <IoCloudDownload className="text-xl" />
             </Link>
@@ -55,7 +55,7 @@ const Hero = () => {
 
         {/* Image Section */}
         <div className="hero_img mx-auto md:mx-0 w-[65%] md:w-[45%] lg:w-[35%] flex justify-center md:items-start py-7 md:py-0 relative">
-          <div className="absolute md:hidden 2xl:block mt-4 md:mt-0 xl:w-[500px] xl:h-[500px] lg:w-[400px] overflow-auto lg:h-[400px] md:w-[300px] md:h-[300px] w-[320px] h-[320px] bg-gray-800 rounded-md rotate-45 -z-10"></div>
+          <div className="absolute md:hidden 2xl:block mt-4 md:mt-0 xl:w-[500px] xl:h-[500px] lg:w-[400px] overflow-auto lg:h-[400px] md:w-[300px] md:h-[300px] sm:w-[320px] sm:h-[320px] w-[250px] h-[250px] bg-gray-800 rounded-md rotate-45 -z-10"></div>
           <Image
             src="/profile.png"
             alt="Profile Picture"

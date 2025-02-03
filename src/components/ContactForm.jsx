@@ -1,92 +1,4 @@
-// import React from "react";
 
-// const ContactForm = () => {
-//   return (
-//     <section className="py-8 flex items-center justify-center bg-gray-900 text-white p-6 flex-col ">
-//         <h2 className="font-extrabold text-4xl text-primary text-center py-4">CONTACT ME</h2>
-//       <div className="bg-gray-800 my-5 rounded-2xl shadow-lg p-8 max-w-3xl w-full">
-//         {/* Header */}
-//         <div className="text-center mb-8">
-//           <h3 className="text-lg uppercase tracking-widest text-gray-400">
-//             Get In Touch
-//           </h3>
-//           <h1 className="text-3xl font-bold">Let’s Discuss Projects</h1>
-//           <p className="text-gray-400 mt-4">
-//             Get in touch with us for any kind of help. We are here to give you
-//             the best and also here to help you to find your projects.
-//           </p>
-//         </div>
-
-//         {/* Form */}
-//         <form className="space-y-6">
-//           {/* Name and Email */}
-//           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-//             <div>
-//               <label htmlFor="name" className="sr-only">
-//                 Name
-//               </label>
-//               <input
-//                 type="text"
-//                 id="name"
-//                 placeholder="Name *"
-//                 className="w-full bg-gray-900 text-gray-200 border border-gray-700 rounded-lg px-4 py-2 focus:ring-2 focus:ring-purple-600 focus:outline-none"
-//               />
-//             </div>
-//             <div>
-//               <label htmlFor="email" className="sr-only">
-//                 Email
-//               </label>
-//               <input
-//                 type="email"
-//                 id="email"
-//                 placeholder="Email *"
-//                 className="w-full bg-gray-900 text-gray-200 border border-gray-700 rounded-lg px-4 py-2 focus:ring-2 focus:ring-purple-600 focus:outline-none"
-//               />
-//             </div>
-//           </div>
-
-//           {/* Subject */}
-//           <div>
-//             <label htmlFor="subject" className="sr-only">
-//               Subject
-//             </label>
-//             <input
-//               type="text"
-//               id="subject"
-//               placeholder="Subject *"
-//               className="w-full bg-gray-900 text-gray-200 border border-gray-700 rounded-lg px-4 py-2 focus:ring-2 focus:ring-purple-600 focus:outline-none"
-//             />
-//           </div>
-
-//           {/* Message */}
-//           <div>
-//             <label htmlFor="message" className="sr-only">
-//               Your message
-//             </label>
-//             <textarea
-//               id="message"
-//               placeholder="Your message *"
-//               rows="4"
-//               className="w-full bg-gray-900 text-gray-200 border border-gray-700 rounded-lg px-4 py-2 focus:ring-2 focus:ring-purple-600 focus:outline-none"
-//             ></textarea>
-//           </div>
-
-//           {/* Submit Button */}
-//           <div className="text-center">
-//             <button
-//               type="submit"
-//               className="bg-white text-black font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-200 transition"
-//             >
-//               Send Message
-//             </button>
-//           </div>
-//         </form>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default ContactForm;
 
 "use client";
 
@@ -138,7 +50,7 @@ const ContactForm = () => {
           <h3 className="text-lg uppercase tracking-widest text-gray-400">
             Get In Touch
           </h3>
-          <h1 className="text-3xl font-bold">Let’s Discuss Projects</h1>
+          <h1 className="text-xl xs:text-3xl font-bold">Let’s Discuss Projects</h1>
           <p className="text-gray-400 mt-4">
             Get in touch with us for any kind of help. We are here to give you
             the best and also here to help you to find your projects.

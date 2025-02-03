@@ -16,7 +16,7 @@ const SingleProject = ({ project }) => {
 
   return (
     <div
-      className={`bg-gray-800 h-[600px] md:h-[400px] rounded-xl shadow-black my-4 shadow-xl projectContainer} flex flex-col md:flex-row`}
+      className={`bg-gray-800 h-[600px] xs:h-[400px] h-[380px] rounded-xl shadow-black my-4 shadow-xl projectContainer flex flex-col md:flex-row`}
     >
     <div
       ref={containerRef}
