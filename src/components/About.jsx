@@ -13,7 +13,7 @@ const About = () => {
   //     .join('');
   // }, []);
   return (
-    <div className="min-h-[80vh] bg-gray-200 flex justify-center items-center" id="about">
+    <div className="min-h-[80vh] bg-gray-800 flex justify-center items-center" id="about">
       <div className="flex gap-14  md:flex-nowrap flex-wrap justify-center py-10 px-9">
         <div className="">
         <Image src="/about.webp" alt="about" width={450} height={650} className="rounded-lg min-h-[400px]" />

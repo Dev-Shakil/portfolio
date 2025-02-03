@@ -128,11 +128,11 @@ const Skills = () => {
   ];
 
   return (
-    <div className="py-8" id="skills">
-      <h2 className="text-center my-4 text-3xl font-bold tracking-widest text-gray-800 animate-fade-in-up">
-        Skills
+    <div className="py-8 bg-gray-900" id="skills">
+      <h2 className="text-center my-4 text-4xl font-bold tracking-widest text-primary animate-fade-in-up">
+        MY SKILLS
       </h2>
-      <div className="md:w-[80%] w-[100%] mx-auto justify-center flex flex-wrap gap-7 py-10">
+      <div className="md:w-[70%] w-[100%] mx-auto justify-center flex flex-wrap gap-7 py-10">
         {skills.map((skill, ind) => (
           <div
             key={ind}
