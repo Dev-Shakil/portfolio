@@ -16,7 +16,7 @@ const SingleProject = ({ project }) => {
 
   return (
     <div
-      className={`bg-gray-800 h-[600px] xs:h-[400px] h-[380px] rounded-xl shadow-black my-4 shadow-xl projectContainer flex flex-col md:flex-row`}
+      className={`bg-gray-800 xs:h-[600px] h-[400px] rounded-xl shadow-black my-4 shadow-xl projectContainer flex flex-col md:flex-row`}
     >
     <div
       ref={containerRef}
@@ -38,7 +38,7 @@ const SingleProject = ({ project }) => {
         }}
       />
     </div>
-    <div className="py-3 flex  w-full md:w-2/4 md:m-3 justify-center rounded-lg flex-col px-5 gap-y-4 shadow-lg items-center">
+    <div className="py-3 flex  w-full md:w-2/4 md:m-3 justify-center rounded-lg flex-col px-5 gap-y-2 md:gap-y-4 shadow-lg items-center">
       <h2 className="font-bold text-primary text-xl md:text-3xl">{project.title}</h2>
       <p className="md:text-md text-sm text-gray-400 font-semibold">{project.description}</p>
       <div className="flex gap-4 mt-3 md:mt-5 ">
