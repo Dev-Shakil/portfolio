@@ -7,7 +7,7 @@ export const sendContactEmail = async (formData) => {
 //   const subject = formData.get("subject");
 //   const email = formData.get("email");
 //   const text = formData.get("text");
-const { name, subject, email, text } = formData;
+const { name, subject, email, message } = formData;
 console.log(formData)
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
@@ -28,7 +28,7 @@ console.log(formData)
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Message:</strong></p>
-        <p>${text}</p>
+        <p>${message}</p>
       `,
     });
 

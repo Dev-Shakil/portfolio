@@ -42,8 +42,8 @@ const SingleProject = ({ project }) => {
       <h2 className="font-bold text-primary text-lg md:text-xl xl:text-3xl">{project.title}</h2>
       <p className="md:text-md text-sm text-gray-400 font-semibold">{project.description}</p>
       <div className="flex gap-4 mt-3 md:mt-5 ">
-        <Link className="text-lg flex items-center gap-2 px-4 bg-black p-2 text-gray-400  rounded-md" target="_blank" href={project.github_link}>Code <FaGithub /></Link>
-        <Link className="text-lg flex items-center gap-2 px-4 bg-primary  p-2 text-gray-700 font-semibold rounded-md" target="_blank" href={project.demo_link}>Live Demo <CgWebsite /></Link>
+        <Link className="text-sm md:text-lg flex items-center gap-2 px-4 bg-black p-2 text-gray-400 font-semibold rounded-md" target="_blank" href={project.github_link}>Code <FaGithub /></Link>
+        <Link className="text-sm md:text-lg flex items-center gap-2 px-4 bg-primary  p-2 text-gray-700 font-semibold rounded-md" target="_blank" href={project.demo_link}>Live Demo <CgWebsite /></Link>
       </div>
     </div>
     </div>
