@@ -39,5 +39,13 @@ const projects = [
         github_link:"https://github.com/sallu-soft/srifolia",
         demo_link:"https://srifolia.vercel.app/"
     },
+    {
+        image:"/cholon2.png",
+        title:"Online Ticketing System",
+        description:"An Online Ticketing website is an online platform that allows users to book a ticket to travel comfortablly and it has full functional custom Admin Panel to Add A trip, Manage Bookings, Manages Users.",
+        tech:["Next JS", "React JS", "Tailwind CSS", "Postgresql", "Bkash Payment Gateway"],
+        github_link:"https://github.com/sallu-soft/car_ticketing",
+        demo_link:"https://cholonbd.com/"
+    },
 ];
 export default projects;

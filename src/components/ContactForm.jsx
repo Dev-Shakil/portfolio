@@ -72,7 +72,7 @@ const ContactForm = () => {
       };
   return (
             
-    <section className="py-8 flex items-center justify-center bg-gray-900 text-white p-6 flex-col">
+    <section className="py-8 flex items-center justify-center bg-gray-900 text-white p-6 flex-col" id="contact">
       <h2 className="font-extrabold text-4xl text-primary text-center py-4">
         CONTACT ME
       </h2>

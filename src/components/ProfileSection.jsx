@@ -2,7 +2,7 @@ import React from "react";
 
 const ProfileSection = () => {
   return (
-    <section className="bg-gray-900 text-white py-12 px-4">
+    <section className="bg-gray-900 text-white py-12 px-4" id="about">
       <div className="container mx-auto">
         {/* About Me Button */}
         <div className="text-center mb-6">
