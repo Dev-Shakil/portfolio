@@ -1,13 +1,14 @@
-import Image from 'next/image'
-import React from 'react'
+// components/SingleSkill.jsx
+'use client';
 
-const SingleSkills = ({skill}) => {
+const SingleSkill = ({ skill }) => {
+  const Icon = skill.icon;
+
   return (
-    <div className={`p-5 cursor-pointer flex justify-center items-center flex-col w-fit h-fit border-primary rounded-lg border hover:bg-gray-50 hover:duration-500 hover:scale-105 transition ease-in-out hover:bg-${skill?.bg}`}>
-    <Image src={skill.url} width={250} height={250} alt="breakfast" className="card-image md:h-[150px] md:w-[150px] h-[120px] w-[120px] rounded-full border object-contain border-yellow-600  flex justify-center items-center"/> 
-    <span className="pt-2 font-bold text-primary text-lg">{skill.name}</span>
+    <div className="p-4 m-2 w-32 h-32 flex flex-col items-center justify-center border border-primary rounded-lg hover:scale-105 transition-all duration-300 shadow-sm bg-white">
+      <Icon className={`text-4xl mb-2 ${skill.color}`} />
+      <span className="text-center text-sm font-semibold text-gray-800">{skill.name}</span>
     </div>
-  )
+  );
 }
-
-export default SingleSkills
+export default SingleSkill;

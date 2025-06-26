@@ -12,7 +12,10 @@ export default function Home() {
     <>
     
     <Hero/>
+    <div className=" bg-gray-900">
     <Skills/>
+    </div>
+    
     {/* <About/> */}
     <ProfileSection/>
     <Education/>
